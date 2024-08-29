@@ -1,0 +1,24 @@
+Package: tiffto
+Type: Package
+Title: Tools for converting the tiff format orthophoto image of remote sensing into other image formats
+Version: 0.1.0
+Author: Ziwen Xie (email:ziwenxie0922@outlook.com)
+Maintainer: The package maintainer <ziwenxie0922@outlook.com>
+Description: When processing the remote sensing images of unmanned aerial vehicles or satellites, the grid images in tiff format contain a lot of useful information. However, when only the color information of the image needs to be processed, converting the tiff format raster image into other common format images can reduce the file size and shorten the data processing time. This is beneficial to image data analysis and processing of high-thouput quantity.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    png,
+    jpeg,
+    raster,
+    EBImage
+Depends: 
+    R (>= 4.3.2)
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
