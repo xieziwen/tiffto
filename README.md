@@ -4,8 +4,9 @@ When processing the remote sensing images of unmanned aerial vehicles or satelli
 ## Installation
 You can install foofactors like so:
 
-devtools::install_github("jennybc/foofactors")
-Quick demo
+devtools::install_github("xieziwen/tiffto")
+
+## Quick demo
 Binding two factors via fbind():
 
 library(foofactors)
