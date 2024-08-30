@@ -13,7 +13,7 @@ install.packages("devtools")
 devtools::install_github("xieziwen/tiffto")
 ```
 
-(2) Download ·tiffto_0.1.0.tar.gz· and install locally
+(2) Download `tiffto_0.1.0.tar.gz` and install locally
 
 ## point out
 
