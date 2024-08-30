@@ -5,12 +5,15 @@ More functions will be developed soon.
 
 ## Installation
 
-You can install foofactors like so:
+(1) Install package from github
+You can install `tiffto` like so:
 
 ``` r
 install.packages("devtools")
 devtools::install_github("xieziwen/tiffto")
 ```
+
+(2) Download ·tiffto_0.1.0.tar.gz· and install locally
 
 ## point out
 
